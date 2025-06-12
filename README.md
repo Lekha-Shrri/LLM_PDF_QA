@@ -1,4 +1,4 @@
-# LLM BASED PDF ANALYSER
+# LLM BASED PDF ANALYSER (LANGCHAIN)
 # 📚 Chat with PDF using Gemini (Google Generative AI)
 
 This project allows users to upload multiple PDF files and ask questions about the content inside them. It uses **Google's Gemini model** (via LangChain integration) to provide intelligent, context-aware answers by retrieving relevant content from the uploaded PDFs.
