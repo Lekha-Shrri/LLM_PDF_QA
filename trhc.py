@@ -15,7 +15,7 @@ from langchain.schema import HumanMessage
 import google.generativeai as genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDWv3vfciG83in2oAt2gMTLFcAXI5AcKSI"
+os.environ["GOOGLE_API_KEY"] = "@$@^%^*^&%"
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 model = ChatGoogleGenerativeAI(model="models/gemini-2.0-flash-lite-001")
@@ -41,7 +41,7 @@ print(generated_text)
 # import google.generativeai as genai
 # from langchain_google_genai import ChatGoogleGenerativeAI
 # import os
-# os.environ["GOOGLE_API_KEY"] = "AIzaSyDXp_INBkWfCVQtRMnLAfo5Iaw8rWRz5fY"
+# os.environ["GOOGLE_API_KEY"] = ""
 # import google.generativeai as genai
 # genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 #
@@ -58,7 +58,7 @@ print(generated_text)
 # import google.generativeai as genai
 #
 # # Set your API key string here directly or via environment variable
-# os.environ["GOOGLE_API_KEY"] = "AIzaSyDWv3vfciG83in2oAt2gMTLFcAXI5AcKSI"
+# os.environ["GOOGLE_API_KEY"] = ""
 #
 # # Configure the genai client with the API key
 # genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
