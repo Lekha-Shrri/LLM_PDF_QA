@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 from langchain.schema import HumanMessage
 #%%
 import os
-#os.environ["GOOGLE_API_KEY"] = "AIzaSyDaRgaXJ1us90Jkrlb7nfdGuPii2SGdCVU"
+#os.environ["GOOGLE_API_KEY"] = "%$##%&%$"
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
